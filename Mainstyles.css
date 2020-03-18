@@ -1,51 +1,50 @@
 .buttons {
-    padding:10px;
-    width: 100px;
-    height: 100px;
+     display: flex;
+    justify-content: center;
 
 }
 
 
-#darkViolet {
-    background-color: darkViolet;
-    height: 50px;
-    width: 50px;
+#red {
+    background-color: red;
+
 }
 
-#mediumPurple {
-    background-color: mediumPurple;
-    height: 50px;
-    width: 50px;
+#blue {
+    background-color: blue;
+
 }
 
-#mediumOrchid {
-    background-color: mediumOrchid;
-    height: 50px;
-    width: 50px;
+#green {
+    background-color: green;
+
+
 }
 
-#plum {
-    background-color: plum;
-    height: 50px;
-    width: 50px;
+#purple {
+    background-color: purple;
+
 }
 
-#darkOrchid {
-    background-color: darkOrchid;
-    height: 50px;
-    width: 50px;
+#yellow {
+    background-color: yellow;
+
 }
 
-#blueViolet {
-    background-color: blueViolet;
-    height: 50px;
-    width: 50px;
+#orange {
+    background-color: orange;
+
 }
 
-div {
-    margin-top: 25px;
+#info {
+    text-align: center;
+}
+
+
+#canvas {
+    margin:auto;
     border-style: ridge;
     border-color: grey;
-    height: 150px;
-    width: 600px;
+    width: 50%;
+    height: 50%;
 }

@@ -1,32 +1,32 @@
 $(document).ready(() => {
-    let btn1 = document.getElemen("darkViolet");
+    let btn1 = document.getElemen("red");
     btn1.addEventListener("click", () => {
-        var drkVlt = "darkViolet";
+        var drkVlt = "red";
         paint(drkVlt);
     });
-    var btn2 = document.getElementById("blueViolet");
+    var btn2 = document.getElementById("blue");
     btn2.addEventListener("click", () => {
-        var bVlt = "blueViolet";
+        var bVlt = "blue";
         paint(bVlt);
     });
-    var btn3 = document.getElementById("darkOrchid");
+    var btn3 = document.getElementById("green");
     btn3.addEventListener("click", () => {
-        var drkOrc = "darkOrchid";
+        var drkOrc = "green";
         paint(drkOrc);
     });
-    var btn4 = document.getElementById("mediumOrchid");
+    var btn4 = document.getElementById("purple");
     btn4.addEventListener("click", () => {
-        var medOrc = "mediumOrchid";
+        var medOrc = "purple";
         paint(medOrc);
     });
-    var btn5 = document.getElementById("mediumPurple");
+    var btn5 = document.getElementById("yellow");
     btn4.addEventListener("click", () => {
-        var medPrp = "mediumPurple";
+        var medPrp = "yellow";
         paint(medPrp);
     });
-    var btn6 = document.getElementById("plum");
+    var btn6 = document.getElementById("orange");
     btn4.addEventListener("click", () => {
-        var plum = "plum";
+        var plum = "orange";
         paint(plum);
     });
 
@@ -43,13 +43,13 @@ $(document).ready(() => {
         ctx.fillRect(mouseX, mouseY, 6, 6);
     }
 
-    window.addEventListener("keypress", clear);
-    var canvas = document.getElementById("board");
 
-    function clear(event) {
-        let context = canvas.getContext('2d');
-        if (event.key === "c") {
-            context.clearRect(0, 0, canvas.width, canvas.height);
-        }
-    }
+
+$("keypress", (event) => {
+      if (event.key == "c"){
+    paint();
+}
 });
+
+
+
