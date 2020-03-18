@@ -1,0 +1,37 @@
+#darkViolet{
+  background-color: darkViolet;
+  height: 50px;
+  width: 50px;
+}
+#mediumPurple{
+  background-color: mediumPurple;
+  height: 50px;
+  width: 50px;
+}
+#mediumOrchid{
+  background-color: mediumOrchid;
+  height: 50px;
+  width: 50px;
+}
+#plum{
+  background-color: plum;
+  height: 50px;
+  width: 50px;
+}
+#darkOrchid{
+  background-color: darkOrchid;
+  height: 50px;
+  width: 50px;
+}
+#blueViolet{
+  background-color: blueViolet;
+  height: 50px;
+  width: 50px;
+}
+div{
+  margin-top: 25px;
+  border-style: ridge;
+  border-color: grey;
+  height: 150px;
+  width: 600px;
+}
