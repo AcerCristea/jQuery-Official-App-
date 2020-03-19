@@ -1,34 +1,48 @@
 $(document).ready(() => {
-    let btn1 = document.getElemen("darkViolet");
-    btn1.addEventListener("click", () => {
+    let $btn1 = $("#darkViolet");
+    let $btn2 = $("#blueViolet");
+    let $btn3 = $("#darkOrchid");
+    let $btn4 = $("#mediumOrchid");
+    let $btn5 = $("#mediumPurple");
+    let $btn6 = $("#plum");
+     $btn1.on({
+    click: () => {
         var drkVlt = "darkViolet";
-        paint(drkVlt);
-    });
-    var btn2 = document.getElementById("blueViolet");
-    btn2.addEventListener("click", () => {
-        var bVlt = "blueViolet";
-        paint(bVlt);
-    });
-    var btn3 = document.getElementById("darkOrchid");
-    btn3.addEventListener("click", () => {
-        var drkOrc = "darkOrchid";
-        paint(drkOrc);
-    });
-    var btn4 = document.getElementById("mediumOrchid");
-    btn4.addEventListener("click", () => {
-        var medOrc = "mediumOrchid";
-        paint(medOrc);
-    });
-    var btn5 = document.getElementById("mediumPurple");
-    btn4.addEventListener("click", () => {
-        var medPrp = "mediumPurple";
-        paint(medPrp);
-    });
-    var btn6 = document.getElementById("plum");
-    btn4.addEventListener("click", () => {
-        var plum = "plum";
-        paint(plum);
-    });
+  paint(drkVlt);
+    }
+  });
+    $btn1.on({
+    click: () => {
+        var drkVlt = "darkViolet";
+  paint(drkVlt);
+    }
+  });
+    $btn1.on({
+    click: () => {
+        var drkVlt = "darkViolet";
+  paint(drkVlt);
+    }
+  });
+    $btn1.on({
+    click: () => {
+        var drkVlt = "darkViolet";
+  paint(drkVlt);
+    }
+  });
+    $btn1.on({
+    click: () => {
+        var drkVlt = "darkViolet";
+  paint(drkVlt);
+    }
+  });
+    $btn1.on({
+    click: () => {
+        var drkVlt = "darkViolet";
+  paint(drkVlt);
+    }
+  });
+
+
 
     var board = document.getElementById("board");
     var ctx = board.getContext('2d');
