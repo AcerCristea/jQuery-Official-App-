@@ -1,18 +1,28 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="Mainstyles.css">
     <title>Color Fader</title>
 </head>
 
 <body>
-    <button id="darkViolet"></button>
-    <button id="blueViolet"></button>
-    <button id="darkOrchid"></button>
-    <button id="mediumOrchid"></button>
-    <button id="mediumPurple"></button>
-    <button id="plum"></button>
+    <div class = "buttons">
+    <button id="red"></button>
+    <button id="blue"></button>
+    <button id="green"></button>
+    <button id="purple"></button>
+    <button id="yellow"></button>
+    <button id="orange"></button>
+</div>
 
-    <div>
+    <div id="info">
+        <h3>Click the buttons to select a color</h3>
+        <h3>To clear the canvas press c </h3>
+    </div>
+
+
+
+    <div id="canvas">
         <canvas id="board" width="600" height="150"></canvas>
     </div>
      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
