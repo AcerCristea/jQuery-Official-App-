@@ -1,4 +1,5 @@
 $(document).ready(() => {
+<<<<<<< HEAD
     let $btn1 = $("#darkViolet");
     let $btn2 = $("#blueViolet");
     let $btn3 = $("#darkOrchid");
@@ -43,6 +44,38 @@ $(document).ready(() => {
   });
 
 
+=======
+    let btn1 = document.getElemen("red");
+    btn1.addEventListener("click", () => {
+        var drkVlt = "red";
+        paint(drkVlt);
+    });
+    var btn2 = document.getElementById("blue");
+    btn2.addEventListener("click", () => {
+        var bVlt = "blue";
+        paint(bVlt);
+    });
+    var btn3 = document.getElementById("green");
+    btn3.addEventListener("click", () => {
+        var drkOrc = "green";
+        paint(drkOrc);
+    });
+    var btn4 = document.getElementById("purple");
+    btn4.addEventListener("click", () => {
+        var medOrc = "purple";
+        paint(medOrc);
+    });
+    var btn5 = document.getElementById("yellow");
+    btn4.addEventListener("click", () => {
+        var medPrp = "yellow";
+        paint(medPrp);
+    });
+    var btn6 = document.getElementById("orange");
+    btn4.addEventListener("click", () => {
+        var plum = "orange";
+        paint(plum);
+    });
+>>>>>>> master/master
 
     var board = document.getElementById("board");
     var ctx = board.getContext('2d');
@@ -57,13 +90,13 @@ $(document).ready(() => {
         ctx.fillRect(mouseX, mouseY, 6, 6);
     }
 
-    window.addEventListener("keypress", clear);
-    var canvas = document.getElementById("board");
 
-    function clear(event) {
-        let context = canvas.getContext('2d');
-        if (event.key === "c") {
-            context.clearRect(0, 0, canvas.width, canvas.height);
-        }
-    }
+
+$("keypress", (event) => {
+      if (event.key == "c"){
+    paint();
+}
 });
+
+
+
