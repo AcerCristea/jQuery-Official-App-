@@ -1,47 +1,44 @@
-<<<<<<< HEAD
-$(document).ready() => {
-=======
 $(document).ready(() => {
 <<<<<<< HEAD
-    let $btn1 = $("#darkViolet");
-    let $btn2 = $("#blueViolet");
-    let $btn3 = $("#darkOrchid");
-    let $btn4 = $("#mediumOrchid");
-    let $btn5 = $("#mediumPurple");
-    let $btn6 = $("#plum");
+    let $btn1 = $("#red");
+    let $btn2 = $("#blue");
+    let $btn3 = $("#green");
+    let $btn4 = $("#purple");
+    let $btn5 = $("#yellow");
+    let $btn6 = $("#orange");
      $btn1.on({
     click: () => {
-        var drkVlt = "darkViolet";
+        var drkVlt = "red";
   paint(drkVlt);
     }
   });
     $btn1.on({
     click: () => {
-        var drkVlt = "darkViolet";
+        var drkVlt = "blue";
   paint(drkVlt);
     }
   });
     $btn1.on({
     click: () => {
-        var drkVlt = "darkViolet";
+        var drkVlt = "green";
   paint(drkVlt);
     }
   });
     $btn1.on({
     click: () => {
-        var drkVlt = "darkViolet";
+        var drkVlt = "purple";
   paint(drkVlt);
     }
   });
     $btn1.on({
     click: () => {
-        var drkVlt = "darkViolet";
+        var drkVlt = "yellow";
   paint(drkVlt);
     }
   });
     $btn1.on({
     click: () => {
-        var drkVlt = "darkViolet";
+        var drkVlt = "orange";
   paint(drkVlt);
     }
   });
