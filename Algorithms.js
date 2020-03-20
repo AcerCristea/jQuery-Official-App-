@@ -98,6 +98,7 @@ $("keypress", (event) => {
     paint();
 }
 });
+}
 
 
 
