@@ -55,8 +55,6 @@ $(document).ready(() => {
                 $ctx.fillRect(mouseX, mouseY, 6, 6);
             }
 
-
-
             //$("keypress", (event) => {
               //      if (event.key == "c") {
                     //    paint();
