@@ -1,18 +1,38 @@
 .buttons {
     width:325px;
   margin: 0 auto;
+     border: none;
+    outline: none;
+
 
 }
 
+#red:hover{
+        background-color: darkred;
+    color: white;
+
+}
 
 #red {
     background-color: red;
 
 }
 
+#blue:hover{
+        background-color: darkblue;
+    color: white;
+}
+
+
 #blue {
     background-color: blue;
 
+}
+
+
+#green:hover{
+        background-color: darkgreen;
+    color: white;
 }
 
 #green {
@@ -21,14 +41,28 @@
 
 }
 
+#purple:hover{
+        background-color: rebeccapurple;
+    color: white;
+}
 #purple {
     background-color: purple;
 
 }
 
+#yellow:hover{
+        background-color: rgb(204,204,0);
+    color: white;
+}
+
 #yellow {
     background-color: yellow;
 
+}
+
+#orange:hover{
+        background-color: darkgoldenrod;
+    color: white;
 }
 
 #orange {
