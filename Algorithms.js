@@ -1,4 +1,54 @@
+<<<<<<< HEAD
 $(document).ready() => {
+=======
+$(document).ready(() => {
+<<<<<<< HEAD
+    let $btn1 = $("#darkViolet");
+    let $btn2 = $("#blueViolet");
+    let $btn3 = $("#darkOrchid");
+    let $btn4 = $("#mediumOrchid");
+    let $btn5 = $("#mediumPurple");
+    let $btn6 = $("#plum");
+     $btn1.on({
+    click: () => {
+        var drkVlt = "darkViolet";
+  paint(drkVlt);
+    }
+  });
+    $btn1.on({
+    click: () => {
+        var drkVlt = "darkViolet";
+  paint(drkVlt);
+    }
+  });
+    $btn1.on({
+    click: () => {
+        var drkVlt = "darkViolet";
+  paint(drkVlt);
+    }
+  });
+    $btn1.on({
+    click: () => {
+        var drkVlt = "darkViolet";
+  paint(drkVlt);
+    }
+  });
+    $btn1.on({
+    click: () => {
+        var drkVlt = "darkViolet";
+  paint(drkVlt);
+    }
+  });
+    $btn1.on({
+    click: () => {
+        var drkVlt = "darkViolet";
+  paint(drkVlt);
+    }
+  });
+
+
+=======
+>>>>>>> master/master
     let btn1 = document.getElemen("red");
     btn1.addEventListener("click", () => {
         var drkVlt = "red";
@@ -29,6 +79,7 @@ $(document).ready() => {
         var plum = "orange";
         paint(plum);
     });
+>>>>>>> master/master
 
     var board = document.getElementById("board");
     var ctx = board.getContext('2d');
