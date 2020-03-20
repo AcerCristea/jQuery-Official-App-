@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(document).ready() => {
     let btn1 = document.getElemen("red");
     btn1.addEventListener("click", () => {
         var drkVlt = "red";
