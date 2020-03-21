@@ -7,45 +7,50 @@ $(document).ready(() => {
             let $btn6 = $("#orange");
             $btn1.on({
                 click: () => {
-                    var red = "red";
-                    paint(red);
+                    let $red = "red";
+                    paint($red);
                 }
             });
             $btn2.on({
                 click: () => {
-                    var blue = "blue";
-                    paint(blue);
+                    let $blue = "blue";
+                    paint($blue);
                 }
             });
             $btn3.on({
                 click: () => {
-                    var green = "green";
-                    paint(green);
+                    let $green = "green";
+                    paint($green);
                 }
             });
             $btn4.on({
                 click: () => {
-                    var purple = "purple";
-                    paint(purple);
+                    let $purple = "purple";
+                    paint($purple);
                 }
             });
             $btn5.on({
                 click: () => {
-                    var yellow = "yellow";
-                    paint(yellow);
+                    let $yellow = "yellow";
+                    paint($yellow);
                 }
             });
             $btn6.on({
                 click: () => {
-                    var orange = "orange";
-                    paint(orange);
+                    let $orange = "orange";
+                    paint($orange);
                 }
             });
 
-            let $board = ("#board");
-            let $ctx = $board.getContext('2d');
-            $board("mousemove", (event) => {
+            let $board = $("#board");
+            let $ctx = $board[0].getContext('2d');
+            $board.on("mousemove", (event) => {
                 paint(event);
+            });
+            $board.on("keypress", function(c) {
+              if(c.keyCode == 13){
+                $ctx.clearRect(0, 0, 600, 150);
+              }
             });
 
             function paint(e, color) {
@@ -55,8 +60,10 @@ $(document).ready(() => {
                 $ctx.fillRect(mouseX, mouseY, 6, 6);
             }
 
-            //$("keypress", (event) => {
-              //      if (event.key == "c") {
-                    //    paint();
-                    //});
+
+
+           /* $("keypress", (event) => {
+                    if (event.key == "c") {
+                       paint();
+                    });*/
             });
